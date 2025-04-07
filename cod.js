@@ -31,7 +31,9 @@ function jogar() {
     let pisoQuebrado = Math.floor(Math.random() * 3) + 1;
 
     if (Number(escolhaJogador) === pisoQuebrado) {
-      alert(`O vidro quebrou! Era o número ${pisoQuebrado}. Fim de jogo!`);
+      alert(
+        `O vidro quebrou! O quebrado era número ${pisoQuebrado}. Fim de jogo!`
+      );
       return;
     } else {
       alert(`Sobreviveu! O vidro quebrado era o número ${pisoQuebrado}.`);
